@@ -36,7 +36,7 @@ defmodule Nadia.Mixfile do
       {:jason, "~> 1.1"},
       {:exvcr, "~> 0.11.0", only: [:dev, :test]},
       {:earmark, "~> 1.4", only: :docs},
-      {:ex_doc, "~> 0.21.2", only: :docs},
+      {:ex_doc, "~> 0.22.0", only: :docs},
       {:inch_ex, "~> 2.0.0", only: :docs}
     ]
   end
